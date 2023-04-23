@@ -1,0 +1,198 @@
+[
+  {
+    "code": "[AUTH] JWT_MISSING",
+    "message": {
+      "en": "The authorization token was not provided",
+      "it": "Il token di autorizzazione non è stato fornito"
+    }
+  },
+  {
+    "code": "[AUTH] JWT_INVALID",
+    "message": {
+      "en": "The authorization token is invalid",
+      "it": "Il token di autorizzazione non è valido"
+    }
+  },
+  {
+    "code": "[AUTH] JWT_EXPIRED",
+    "message": {
+      "en": "The authorization token is expired",
+      "it": "Il token di autorizzazione è scaduto"
+    }
+  },
+  {
+    "code": "[AUTH] INSUFFICIENT_PRIVILEGES",
+    "message": {
+      "en": "Insufficient access privileges ",
+      "it": "Privilegi di accesso insufficienti"
+    }
+  },
+  {
+    "code": "[AUTH] LOGIN_EMAIL_MISSING",
+    "message": {
+      "en": "User email address not provided or invalid",
+      "it": "L'indirizzo email dell'utente non è stato fornito o non è valido"
+    }
+  },
+  {
+    "code": "[AUTH] LOGIN_EMAIL_NOTFOUND",
+    "message": {
+      "en": "The user is not in the list of the registered users",
+      "it": "L'utente non è nella lista degli utenti registrati"
+    }
+  },
+  {
+    "code": "[AUTH] LOGIN_PASSWORD_MISSING",
+    "message": {
+      "en": "Password not provided or invalid",
+      "it": "La password non è stata fornita o è invalida"
+    }
+  },
+  {
+    "code": "[AUTH] LOGIN_PASSWORD_INVALID",
+    "message": {
+      "en": "Password does not match or invalid",
+      "it": "La password non corrisponde o non è valida"
+    }
+  },
+  {
+    "code": "[AUTH] LOGIN_NOT_YET_VERIFIED_1",
+    "message": {
+      "en": "Impossible to emit the token for [%1] because user is not yet verified",
+      "it": "Impossibile emettere il token per [%1] perché l'utente non è ancora verificato"
+    }
+  },
+  {
+    "code": "[AUTH] LOGIN_PASSWORD_EXPIRED",
+    "message": {
+      "en": "The password is expired",
+      "it": "La password è scaduta"
+    }
+  },
+  {
+    "code": "[AUTH] SIGNUP_EMAIL_MISSING",
+    "message": {
+      "en": "The email address is missing!.",
+      "it": "L'indirizzo email non è stato fornito!"
+    }
+  },
+  {
+    "code": "[AUTH] SIGNUP_EMAIL_INVALID_1",
+    "message": {
+      "en": "Invalid email address [%1]!.",
+      "it": "L'indirizzo email non è valido [%1]!"
+    }
+  },
+  {
+    "code": "[AUTH] SIGNUP_USER_EXISTS_1",
+    "message": {
+      "en": "The user [%1] already exists!",
+      "it": "L'utente [%1] esiste già!"
+    }
+  },
+  {
+    "code": "[AUTH] SIGNUP_PASSWORD_INVALID",
+    "message": {
+      "en": "Password is invalid or not matching complexity criterias",
+      "it": "La password non è valida o non soddisfa i criteri di complessità!"
+    }
+  },
+  {
+    "code": "[AUTH] SIGNUP_ENCRYPTING_PWD",
+    "message": {
+      "en": "Something went wrong encrypting the password!",
+      "it": "La criptazione della password non è riuscita!"
+    }
+  },
+  {
+    "code": "[AUTH] VERIFICATION_TOKEN_NOTFOUND",
+    "message": {
+      "en": "The email verification token is not associated to any user.",
+      "it": "Il token di verifica della email non è associato a nessun utente."
+    }
+  },
+  {
+    "code": "[AUTH] VERIFICATION_ALREADY_DONE",
+    "message": {
+      "en": "The email was already verified.",
+      "it": "La verifica della email dè già stata eseguita"
+    }
+  },
+  {
+    "code": "[AUTH] DELETE_USER_NOTFOUND_1",
+    "message": {
+      "en": "Impossible to delete! The user [%1] was not found.",
+      "it": "Impossibile eliminare! L'utente [%1] non è stato trovato."
+    }
+  },
+  {
+    "code": "[AUTH] GETROLES_USER_NOTFOUND_1",
+    "message": {
+      "en": "Can't get roles! The user [%1] was not found.",
+      "it": "Impossibile leggere i ruoli! L'utente [%1] non è stato trovato."
+    }
+  },
+  {
+    "code": "[AUTH] SETROLE_USER_NOTFOUND_1",
+    "message": {
+      "en": "Can't set role! The user [%1] was not found.",
+      "it": "Impossibile imposgatre il ruolo! L'utente [%1] non è stato trovato."
+    }
+  },
+  {
+    "code": "[AUTH] SETROLE_FAMILY_NOTFOUND_1",
+    "message": {
+      "en": "Can't set role! The family [%1] was not found.",
+      "it": "Impossibile impostare il ruolo! La famiglia [%1] non è stato trovata."
+    }
+  },
+  {
+    "code": "[AUTH] SETROLE_ROUTE_NOTFOUND_1",
+    "message": {
+      "en": "Can't set role! The route [%1] was not found.",
+      "it": "Impossibile impostare il ruolo! La route [%1] non è stato trovata."
+    }
+  },
+  {
+    "code": "[AUTH] SETROLE_ROLE_NOTFOUND_1",
+    "message": {
+      "en": "Can't set role! The role [%1] was not found.",
+      "it": "Impossibile impostare il ruolo! Il ruolo [%1] non è stato trovato."
+    }
+  },
+  {
+    "code": "[AUTH] RESETPWD_USER_NOTFOUND_1",
+    "message": {
+      "en": "Can't reset password! The user [%1] was not found.",
+      "it": "Impossibile reimpostare la password! L'utente [%1] non è stato trovato."
+    }
+  },
+  {
+    "code": "[AUTH] CHGPWD_USER_NOTFOUND_1",
+    "message": {
+      "en": "Can't change password! The user [%1] was not found.",
+      "it": "Impossibile cambiare la password! L'utente [%1] non è stato trovato."
+    }
+  },
+  {
+    "code": "[AUTH] CHGPWD_OLDPWD_INVALID",
+    "message": {
+      "en": "Can't change password! The old password is invalid.",
+      "it": "Impossibile cambiare la password! La vecchia password non è valida."
+    }
+  },
+  {
+    "code": "[AUTH] CHGPWD_NEWPWD_INVALID",
+    "message": {
+      "en": "Can't change password! The new password is invalid",
+      "it": "Impossibile cambiare la password! La nuova password non è valida."
+    }
+  },
+  {
+    "code": "[AUTH] MONGO_NOUSERS",
+    "message": {
+      "en": "The current mongo DB connection has retrieved an empty list of users",
+      "it": "La connessione al MongoDB ha restituito una lista di utenti vuota."
+    }
+  }
+]
